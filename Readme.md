@@ -67,6 +67,19 @@ Instead change the require of universal.js in /mnt/d/EslintTest/node_modules/.pn
     at require$$0.Module._extensions..js (/mnt/d/EslintTest/.pnp.cjs:8214:35)
 ```
 
+## The config used to initialize project
+✔ What do you want to lint? · __**javascript**__, __**json**__, __**css**__
+✔ How would you like to use ESLint? · __**problems**__
+✔ What type of modules does your project use? · __**esm**__
+✔ Which framework does your project use?  __**react**__
+✔ Does your project use TypeScript? · no / __**yes**__
+✔ Where does your code run? · __**browser**__, __**node**__
+The config that you've selected requires the following dependencies:
+
+eslint, @eslint/js, globals, typescript-eslint, eslint-plugin-react, @eslint/json, @eslint/css
+✔ Would you like to install them now? · No / __**Yes**__
+✔ Which package manager do you want to use? · __**pnpm**__
+
 ## How to run?
 ```
 pnpm lint
